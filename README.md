@@ -2,7 +2,12 @@
 
 ## 💡 Idea
 
-**Selection Sort** es un algoritmo básico de ordenamiento que busca el elemento más pequeño de una lista y lo coloca al principio, repitiendo el proceso para el resto de los elementos.
+**Selection Sort** es un algoritmo básico de ordenamiento que busca el elemento más pequeño de una lista y lo coloca al principio, repitiendo el proceso para el 
+resto de los elementos.
+
+## 🖼️ Demostración gráfica
+
+![Demostración de Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original)
 
 ## 🔄 ¿Cómo funciona?
 
@@ -29,13 +34,7 @@ Esto ocurre porque el algoritmo recorre **siempre toda la parte no ordenada** pa
 
 ### 💾 Uso de memoria
 
-Selection Sort tiene como ventaja que realiza un número reducido de intercambios.
-
-* Espacio adicional: `O(1)`
-* Número máximo de intercambios: `n - 1`
-* Número de escrituras: `O(n)`
-
-Esto puede ser interesante cuando las operaciones de escritura en memoria tienen un coste elevado.
+Selection Sort tiene como ventaja que realiza un número reducido de intercambios. Esto puede ser interesante cuando las operaciones de escritura en memoria tienen un coste elevado.
 
 ## ⚠️ Selection Sort y Big Data
 
@@ -43,29 +42,12 @@ Selection Sort **no es adecuado para grandes volúmenes de datos**.
 
 Su complejidad temporal de `O(n²)` provoca que el número de operaciones crezca cuadráticamente a medida que aumenta el tamaño de la entrada.
 
-Por ejemplo, si el tamaño de la entrada se duplica:
-
-```text
-n → 2n
-
-O(n²) → O((2n)²) = O(4n²)
-```
-
-Por tanto, aproximadamente se cuadruplica el trabajo.
-
 ## 🛠️ ¿Cuándo es útil Selection Sort?
 
 Aunque no es eficiente para grandes cantidades de datos, puede ser útil en determinadas situaciones:
 
 1. **Cuando el coste de escribir en memoria es elevado**, ya que realiza como máximo `n - 1` intercambios.
 2. **En listas muy pequeñas**, donde la sencillez del algoritmo puede compensar el uso de algoritmos más sofisticados.
-3. **Con fines educativos**, ya que su funcionamiento es sencillo de entender y permite estudiar conceptos básicos de algoritmos de ordenamiento.
-
-## 🖼️ Demostración gráfica
-
-<!-- Añadir aquí la imagen de la demostración -->
-
-![Demostración de Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original)
 
 ## 🎥 Vídeos
 
