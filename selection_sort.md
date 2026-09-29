@@ -65,7 +65,7 @@ Aunque no es eficiente para grandes cantidades de datos, puede ser útil en dete
 
 <!-- Añadir aquí la imagen de la demostración -->
 
-![Demostración de Selection Sort](https://es.wikipedia.org/wiki/Archivo:Selection-Sort-Animation.gif)
+![Demostración de Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original)
 
 ## 🎥 Vídeos
 
